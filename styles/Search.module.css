@@ -1,0 +1,12 @@
+.pesquisa_div{
+  display: flex;
+}
+.pesquisa{
+  width: 60%;
+  height: 50px;
+  padding: 20px;
+  background: #ececed;
+  border-radius: 4px;
+  border-style: none;
+  flex-grow: 2;
+}
