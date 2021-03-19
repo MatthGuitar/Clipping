@@ -1,11 +1,12 @@
 import Avatar from './Avatar'
 import Editbtn from './Editbtn'
+import SubcardStyle from '../styles/Subcard.module.scss'
 
 const Subcard = () => {
   return (
-    <div>
+    <div class={SubcardStyle.subcard}>
       <Avatar />
-      <h2>Rafael Costa</h2>
+      <h2 class='subtitle'>Rafael Costa</h2>
       <p>Kderno de perfil de Rafael Costa</p>
       <p>· 49 visualizações · 2d atrás</p>
       <div>
@@ -14,7 +15,6 @@ const Subcard = () => {
           <p>45</p>
         </div>
         <button>
-          <img src />
            Compartilhar
         </button>
         <Editbtn />

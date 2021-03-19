@@ -1,19 +1,14 @@
-import Nav from './Nav'
-import Visits from './Visits'
+
 import Header from './Header'
+import Aside from './Aside'
 
 
 const Layout = ({ children }) => {
   return (
     <>
     <Header />
-    <div>
-    <Nav />
-    </div>
-    <div>
-    <Visits />
+    <Aside/>
     {children}
-    </div>
     </>
   )
 }

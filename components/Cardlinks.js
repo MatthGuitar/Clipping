@@ -3,7 +3,6 @@ import Link from 'next/link'
 
 const Cardlinks = () => {
   return (
-    <div>
       <ul>
         <li>
           <img src />
@@ -22,7 +21,6 @@ const Cardlinks = () => {
           <Link href='/'>Favoritos</Link>
         </li>
       </ul>
-    </div>
   )
 }
 

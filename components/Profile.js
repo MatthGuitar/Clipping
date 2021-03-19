@@ -1,17 +1,15 @@
 import Image from 'next/image'
-import ProfileStyle from '../styles/Profile.module.css'
+import ProfileStyle from '../styles/Profile.module.scss'
 
 const Profile = () => {
   return (
-    <div>
       <Image 
       src = "/../public/perfil.jpg"
       alt = 'Foto de perfil'
-      width={500}
-      height={500}
+      width={300}
+      height={300}
       class={ProfileStyle.perfil}
       />
-    </div>
   )
 }
 

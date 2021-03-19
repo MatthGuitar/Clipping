@@ -1,4 +1,4 @@
-import BtnStyle from '../styles/Btn.module.css'
+import BtnStyle from '../styles/Btn.module.scss'
 
 const Editbtn = () => {
   return (

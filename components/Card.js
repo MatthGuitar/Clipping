@@ -1,11 +1,12 @@
 import Editbtn from './Editbtn'
 import Profile from './Profile'
 import Cardlinks from './Cardlinks'
+import Circles from './Circles'
 import CardStyles from '../styles/CardStyles.module.scss'
 
 const Card = () => {
   return (
-    <div class={CardStyles.card_div}>
+    <div class={CardStyles.card}>
       <div class={CardStyles.card_body}>
         <div class={CardStyles.card_photo}>
           <Profile />
@@ -18,7 +19,10 @@ const Card = () => {
           inverse problems in NDT, worked for long time in Software Development, even for a while as
           a Project Manager.
           </p>
-          <Editbtn />
+          <div>
+            <Circles />
+            <Editbtn />
+          </div>
         </div>
       </div>
       <div class={CardStyles.card_links}>

@@ -2,18 +2,18 @@ import Avatar from './Avatar'
 import Logo from './Logo'
 import Search from './Search'
 import HeaderStyles from '../styles/Header.module.scss'
+import Dotbtn from './Dotbtn'
 
 const Header = () => {
   return (
-    <div class={HeaderStyles.header}>
-      <Logo class={HeaderStyles.logo} />
-      <div>
-      <Search class={HeaderStyles.pesquisa} />
+    <header class={HeaderStyles.header}>
+      <Logo />
+      <Search />
+      <div class={HeaderStyles.top_menu}>
+      <Avatar />
+      <Dotbtn />
       </div>
-      <div>
-        <Avatar />
-      </div>
-    </div>
+    </header>
   )
 }
 

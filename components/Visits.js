@@ -1,24 +1,40 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import VisitsStyle from '../styles/Visits.module.css'
+import VisitsStyle from '../styles/Visits.module.scss'
 
 const Visits = () => {
   return (
     <div>
-      <ul class={VisitsStyle.view_list}>
-      <li>
-          <img src />
-          <Link href='/'>Kdernos</Link>
+      <h2 class={VisitsStyle.view_title}>Vistos recetemente</h2>
+        <ul class={VisitsStyle.view_list}>
+        <li>
+          <Image 
+          src="/../public/circle.svg"
+          alt="Home Icon"
+          width={20}
+          height={20}
+          />
+          <Link href='/'>Tratado de fronteira</Link>
         </li>
         <li>
-          <img src />
-          <Link href='/'>Kdernos</Link>
+          <Image 
+          src="/../public/circle.svg"
+          alt="Home Icon"
+          width={20}
+          height={20}
+          />
+          <Link href='/'>Microeconomia I</Link>
         </li>
         <li>
-          <img src />
-          <Link href='/'>Favoritos</Link>
+          <Image 
+          src="/../public/circle.svg"
+          alt="Home Icon"
+          width={20}
+          height={20}
+          />
+          <Link href='/'>Melhor bibliografia CA…</Link>
         </li>
-      </ul>
+        </ul>
     </div>
   )
 }
