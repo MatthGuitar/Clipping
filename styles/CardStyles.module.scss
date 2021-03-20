@@ -30,11 +30,17 @@
     margin: 0 1.5vw -5vw 1.5vw; 
     padding: 15px;
     font-size: 1em;
-    border-bottom: 2px #4d92ed solid;
+    :hover{
+      border-bottom: none;
+    }
   } 
+  :hover{
+    border-bottom: 2px #4d92ed solid;
+  }
 }
 .card_btns{
   display: flex;
+  justify-content: space-between;
 }
 
 .active{

@@ -7,11 +7,13 @@ const Share = () => {
       <button>
         Compartilhar
       </button>
-      <Image
-        src='/../public/people.svg'
-        width={20}
-        height={20}
-      />
+      <div className={ShareStyle.share_img}>
+        <Image
+          src='/../public/people.svg'
+          width={20}
+          height={20}
+        />
+      </div>
     </div>
   )
 }

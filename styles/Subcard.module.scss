@@ -3,40 +3,49 @@
   grid-template-columns: 1fr 3fr 3fr;
   height: 15vh;
   margin-left: 18vw;
-  grid-auto-rows: minmax(15vh, auto);
+  grid-auto-rows: minmax(10vh, auto);
   box-shadow: inset 0px -1px 0px 0px rgb(232, 232, 232);
 }
 .subcard_img{
   margin: auto;
-  
 }
-
 .subcard_text{
   margin-left: -2vw;
 }
-
 .subcard_counter{
-  width: 5vw;
+  margin: 2vh;
+  display: flex;
+  width: 30px;
+  height: 40px;
   button{
-    padding: 5px;
+   
     background: #fff;
     color: #afafaf;
-    width: 30px;
-    height: 30px;
+    padding: 10px;
     border: 1px solid #dedfe0;
+    border-right: none;
     border-radius: 4px 0 0 4px;
   }
   p{
-    margin: 0 auto;
+    margin: auto;
     border: 1px solid #dedfe0;
-    border-radius: 4px;
+    border-radius: 0 4px 4px 0;
+    width: 40px;
+    padding: 10px;
+    color:#afafaf;
+    justify-content: center;
+  }
+  :hover{
+      color: #616060;
   }
 }
 .subcard_btns{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 5px;
+  grid-auto-rows: auto;
   margin: 3vh 0;
+
 }
 
 .subcard_name{

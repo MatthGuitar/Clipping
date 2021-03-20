@@ -1,5 +1,9 @@
+.edit_wrapper{
+  position: relative;
+}
 .btn{
-  padding: 10px 20px;
+  padding: 10px 10px 10px 30px;
+  margin-top: 2vh;
   background: #4d92ed;
   border-style: none;
   border-radius: 4px;
@@ -8,4 +12,10 @@
 
 .btn:hover{
   background: #1e5399;
+}
+.btn_img{
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  fill: #fff;
 }
