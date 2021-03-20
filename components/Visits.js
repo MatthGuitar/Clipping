@@ -9,37 +9,37 @@ const Visits = () => {
         <ul class={VisitsStyle.view_list}>
         <li>
           <Image 
-          src="/../public/circle.svg"
+          src="/../public/perfil2.jpg"
           alt="Home Icon"
-          width={20}
-          height={20}
+          width={12}
+          height={12}
           />
           <Link href='/'>Tratado de fronteira</Link>
         </li>
         <li>
           <Image 
-          src="/../public/circle.svg"
+          src="/../public/perfil4.jpg"
           alt="Home Icon"
-          width={20}
-          height={20}
+          width={12}
+          height={12}
           />
           <Link href='/'>Microeconomia I</Link>
         </li>
         <li>
           <Image 
-          src="/../public/circle.svg"
+          src="/../public/perfil5.jpg"
           alt="Home Icon"
-          width={20}
-          height={20}
+          width={12}
+          height={12}
           />
           <Link href='/'>Melhor bibliografia CA…</Link>
         </li>
         <li>
           <Image 
-          src="/../public/circle.svg"
+          src="/../public/perfil3.jpg"
           alt="Home Icon"
-          width={20}
-          height={20}
+          width={12}
+          height={12}
           />
           <Link href='/'>Resumos Miltons Sant...</Link>
         </li>

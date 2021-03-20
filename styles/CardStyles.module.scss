@@ -25,15 +25,16 @@
 .card_links{
   border-top: 1px  solid #dedfe0;
   grid-column: 1/2;
-  
   li{
     display: inline-block;
     margin: 0 1.5vw -5vw 1.5vw; 
     padding: 15px;
     font-size: 1em;
     border-bottom: 2px #4d92ed solid;
-  }
-  
+  } 
+}
+.card_btns{
+  display: flex;
 }
 
 .active{

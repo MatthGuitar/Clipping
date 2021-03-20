@@ -1,20 +1,46 @@
-import React from 'react'
+import SideStyles from '../styles/Sidesumary.module.scss'
 
 const Sidesumary = () => {
   return (
-    <div>
-      <h2 class='subtitle'>Sumário</h2>
-      <ul>
-        <li>Introdução</li>
-        <li>A herança da colônia;</li>
-        <li>A diplomacia Imperial</li>
-        <li>A obra republicana do Barão do Rio Branco.</li>
-      </ul>
-      <div>
+    <div class={SideStyles.side}>
+      <div class={SideStyles.sumary_list}>
         <ul>
-          <li>Anotações</li>
-          <li>Comentários</li>
+          <h2 class='subtitle'>Sumário</h2>
+          <li>
+            <a href='#'>
+              Introdução
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              A herança da colônia
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              A diplomacia Imperial
+            </a>
+          </li>
+          <li>
+            <a href='#'>
+              A obra republicana do Barão do Rio Branco.
+            </a>
+          </li>
         </ul>
+        <div>
+          <ul>
+            <li>
+              <a href='#'>
+                Anotações
+            </a>
+            </li>
+            <li>
+              <a href='#'>
+                Comentários
+            </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   )

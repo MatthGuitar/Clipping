@@ -1,8 +1,10 @@
+@import url('https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: ProximaNova-Regular;
+  font-family: Roboto;
  }
 
 a {
@@ -24,7 +26,7 @@ ul{
 }
 .subtitle{
   font-size: 1em;
-  color: #000;
+  color: rgb(44, 44, 44);
   font-style: bold;
 }
 

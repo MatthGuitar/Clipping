@@ -1,0 +1,28 @@
+.side{
+  color: rgb(73, 73, 73);
+  width: 20vw;
+  height: 50vh;
+  position: absolute;
+  top: 5vh;
+  right: 0;
+}
+
+.sumary_list{
+  font-size: 1em;
+  line-height: 2em;
+  padding: 15px;
+  border-left: 1px solid #4d92ed;
+  ul{
+    padding: 0;
+    li a:hover{
+      color:#4d92ed ;
+    }
+    h2{
+      margin-left: 10px;
+    }
+  }
+}
+
+.sumary_title{
+  font-size: 1em;
+}

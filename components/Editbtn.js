@@ -2,7 +2,9 @@ import BtnStyle from '../styles/Btn.module.scss'
 
 const Editbtn = () => {
   return (
-      <button class={BtnStyle.btn}>Editar Perfil</button>
+      <div>
+        <button class={BtnStyle.btn}>Editar Perfil</button>
+      </div>
   )
 }
 
