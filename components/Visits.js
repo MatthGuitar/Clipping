@@ -34,6 +34,15 @@ const Visits = () => {
           />
           <Link href='/'>Melhor bibliografia CA…</Link>
         </li>
+        <li>
+          <Image 
+          src="/../public/circle.svg"
+          alt="Home Icon"
+          width={20}
+          height={20}
+          />
+          <Link href='/'>Resumos Miltons Sant...</Link>
+        </li>
         </ul>
     </div>
   )

@@ -1,10 +1,14 @@
 .sumary{
-  width: 55vw;
-  margin: 5vh auto;
+  width: 50vw;
+  margin: 2vh auto;
 }
 
 .sumary_list{
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 2em;
   color: #4D92ED;
+  padding: 15px;
+  li::marker{
+    color: #000;
+  }
 }

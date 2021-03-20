@@ -15,8 +15,7 @@ export default function Home() {
      </Head>
       <Card />
       <Subcard />
-      <Sumary />
-      <Sidesumary />
+      <Sumary />  
       <Maintext />
     </div>
   )

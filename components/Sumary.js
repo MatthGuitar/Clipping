@@ -2,7 +2,7 @@ import SumaryStyles from '../styles/Sumary.module.scss'
 const Sumary = () => {
   return (
     <div class={SumaryStyles.sumary}>
-      <h2 class='subtitle'>Sumário</h2>
+      <h2 class='title'>Sumário</h2>
       <ol class={SumaryStyles.sumary_list}>
         <li>Introdução</li>
         <li>A herança da colônia;</li>

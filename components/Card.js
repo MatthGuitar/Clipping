@@ -25,7 +25,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div class={CardStyles.card_links}>
+      <div>
         <Cardlinks />
       </div>
     </div>

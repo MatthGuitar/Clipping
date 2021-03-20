@@ -7,7 +7,6 @@ const Dotbtn = () => {
     alt='Foto de perfil'
     width={30}
     height={30}
- 
   />
   )
 }

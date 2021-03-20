@@ -1,23 +1,21 @@
 import Link from 'next/link'
+import CardStyles from '../styles/CardStyles.module.scss'
 
 
 const Cardlinks = () => {
+
   return (
-      <ul>
+      <ul class={CardStyles.card_links} id='cardlinks'>
         <li>
-          <img src />
           <Link href='/'>Perfil</Link>
         </li>
         <li>
-          <img src />
           <Link href='/'>Conta</Link>
         </li>
         <li>
-          <img src />
           <Link href='/'>Meus Kdernos</Link>
         </li>
         <li>
-          <img src />
           <Link href='/'>Favoritos</Link>
         </li>
       </ul>
