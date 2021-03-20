@@ -1,9 +1,9 @@
-import React from 'react'
+import TextStyle from '../styles/Maintext.module.scss'
 
 const Maintext = () => {
   return (
-    <section>
-      <h1>Introdução</h1>
+    <section class={TextStyle.text}>
+      <h1 class='title'>Introdução</h1>
       <p>
         Este é um resumo sobre as Fronteiras do Brasil.
 

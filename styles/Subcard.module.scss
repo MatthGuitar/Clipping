@@ -1,10 +1,28 @@
 .subcard{
-
-  width: 55vw;
-  margin: auto;
-  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  width: 76vw;
+  height: 15vh;
+  margin-left: 22vw;
+  grid-auto-rows: minmax(15vh, auto);
+  box-shadow: inset 0px -1px 0px 0px rgb(232, 232, 232);
 }
-.subcard div{
-  width: 42px;
-  height: 42px;
+.subcard_img{
+  margin: auto;
+  
+}
+
+.subcard_text{
+  display: inline-block;
+}
+
+.subcard_counter{
+  display: inline-block;
+}
+.subcard_btns{
+  padding: 20px;
+}
+
+.subcard_name{
+  color: #4d92ed;
 }

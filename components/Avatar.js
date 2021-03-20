@@ -6,8 +6,8 @@ const Avatar = () => {
       <Image
         src="/../public/perfil.jpg"
         alt='Foto de perfil'
-        width={30}
-        height={30}
+        width={45}
+        height={45}
         class={AvatarStyle.avatar}
       />
   )

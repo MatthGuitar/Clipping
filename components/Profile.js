@@ -6,8 +6,8 @@ const Profile = () => {
       <Image 
       src = "/../public/perfil.jpg"
       alt = 'Foto de perfil'
-      width={300}
-      height={300}
+      width={120}
+      height={120}
       class={ProfileStyle.perfil}
       />
   )

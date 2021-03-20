@@ -1,19 +1,30 @@
 .card{
   border: 1px solid #dedfe0;
   border-radius: 4px;
-  min-height: 35vh;
+  min-height: 30vh;
   width: 55vw;
-  margin: 16vh auto;
-  display: grid;
+  margin: 16vh auto 2vh auto;
+
 }
 .card_body{
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row nowrap;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2em;
+}
+.card_photo{
+  margin: 50px;
+}
+.card_text{
+  padding: 0  10px;
+}
+.card_text p{
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 .card_links{
   border-top: 1px  solid #dedfe0;
-  display: flex;
+  grid-column: 1/2;
   li{
     display: inline-block;
     margin: 0 1.5vw -5vw 1.5vw; 
