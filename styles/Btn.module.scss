@@ -1,5 +1,8 @@
 .edit_wrapper{
   position: relative;
+  @media screen and (max-width: 720px){
+    width: 10vw;
+  }
 }
 .btn{
   padding: 10px 10px 10px 30px;

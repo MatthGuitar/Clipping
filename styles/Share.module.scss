@@ -9,14 +9,22 @@
     border: 1px solid #dedfe0;
     border-radius: 4px;
     padding: 10px 5px 10px 30px;
+    @media screen and (max-width: 720px){
+      padding: 5px 5px 5px 10px;
+      width: 100px;
+    }
   }
   :hover{
     color: #7e7d7d;
     border: 1px solid #7e7d7d;
   }
+  
 }
 .share_img{
   position: absolute;
   top: 10px;
   left: 10px;
+  @media screen and (max-width: 720px){
+    display: none;
+  }
 }

@@ -16,10 +16,17 @@
     width: 50vw;
     padding-left: 3vw;
   }
+  @media screen and (max-width: 720px){
+    width: 30vw;
+    padding-left: 3vw;
+  }
 }
 
 .lupa{
   position: absolute;
   top: 1.8vh;
   left: 1vw;
+  @media screen and (max-width: 720px){
+    display: none;
+  }
 }

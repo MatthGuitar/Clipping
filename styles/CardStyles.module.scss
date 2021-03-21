@@ -7,7 +7,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
   @media screen and (max-width: 1200px){
     width: 95vw;
-
+    
   }
 
 }
@@ -33,7 +33,9 @@
 }
 .card_links{
   border-top: 1px  solid #dedfe0;
-
+  @media screen and (max-width: 720px){
+    font-size: 0.8em;
+  }
   li{
     display: inline-block;
     margin: 0 1.5vw -5vw 1.5vw; 
@@ -41,6 +43,9 @@
     font-size: 1em;
     :hover{
       border-bottom: none;
+    }
+    @media screen and (max-width: 720px){
+      padding: 5px;
     }
   } 
   :hover{
@@ -50,6 +55,9 @@
 .card_btns{
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 720px){
+    width: 50vw;
+  }
 }
 
 .active{
