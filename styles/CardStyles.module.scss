@@ -4,6 +4,9 @@
   min-height: 30vh;
   width: 60vw;
   margin: 16vh auto 2vh auto;
+  @media screen and (max-width: 1200px){
+    width: 95vw;
+  }
 
 }
 .card_body{
@@ -13,6 +16,9 @@
 }
 .card_photo{
   margin: 50px;
+  @media screen and (max-width: 1200px){
+    margin: 10vh auto;
+  }
 }
 .card_text{
   padding: 0  10px;
@@ -24,7 +30,7 @@
 }
 .card_links{
   border-top: 1px  solid #dedfe0;
-  grid-column: 1/2;
+
   li{
     display: inline-block;
     margin: 0 1.5vw -5vw 1.5vw; 

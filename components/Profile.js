@@ -4,7 +4,7 @@ import ProfileStyle from '../styles/Profile.module.scss'
 const Profile = () => {
   return (
       <Image 
-      src = "/../public/perfil.jpg"
+      src = "/../public/perfil3.jpg"
       alt = 'Foto de perfil'
       width={120}
       height={120}

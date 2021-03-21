@@ -5,6 +5,9 @@
   font-size: 1em;
   line-height: 1.5em;
   }
+  @media screen and (max-width: 1200px){
+    width: 95vw;
+  }
 }
 
 .main_container{

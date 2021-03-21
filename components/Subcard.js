@@ -21,7 +21,7 @@ const Subcard = () => {
           <Counter />
         </div>
           <Share />
-          <Editbtn class={SubcardStyle.subcard_edit}/>
+          <Editbtn />
       </div>
     </div>    
   )  

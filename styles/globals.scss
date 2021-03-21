@@ -15,11 +15,16 @@ ul{
   list-style: none;
 }
 
+button{
+  cursor: pointer;
+}
+
 * {
   box-sizing: border-box;
 }
 
 .title{
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1.5em;
   color: #000;
   font-style: bold;
@@ -43,10 +48,19 @@ ul{
   color: #55c9ff;
   font-size: 2em;
   text-transform: lowercase;
-  margin: 15px 30px 10px 50px;
+  margin: 2vh 2vw;
+  @media screen and (max-width: 1200px){
+    margin-left: 10vw;
+    margin-top: 3vh;
+  }
+
 }
 
 .sidebar{
   width: 15vw;
   position: fixed;
+  z-index: 10;
+  @media screen and (max-width: 1200px){
+    display: none;
+  }
 }

@@ -10,6 +10,7 @@ const Share = () => {
       <div className={ShareStyle.share_img}>
         <Image
           src='/../public/people.svg'
+          alt='Icone pessoas'
           width={20}
           height={20}
         />

@@ -4,46 +4,55 @@ import VisitsStyle from '../styles/Visits.module.scss'
 
 const Visits = () => {
   return (
-    <div>
+    <div class={VisitsStyle.view_wrapper}>
       <h2 class={VisitsStyle.view_title}>Vistos recetemente</h2>
-        <ul class={VisitsStyle.view_list}>
+      <ul class={VisitsStyle.view_list}>
         <li>
           <Image 
-          src="/../public/perfil2.jpg"
+          src="/../public/perfil.jpg"
           alt="Home Icon"
-          width={12}
-          height={12}
+          width={24}
+          height={24}
           />
           <Link href='/'>Tratado de fronteira</Link>
         </li>
         <li>
           <Image 
-          src="/../public/perfil4.jpg"
+          src="/../public/perfil2.jpg"
           alt="Home Icon"
-          width={12}
-          height={12}
+          width={24}
+          height={24}
           />
-          <Link href='/'>Microeconomia I</Link>
+          <Link href='/'>Exercise: Syntax, Variat… I</Link>
         </li>
         <li>
           <Image 
-          src="/../public/perfil5.jpg"
+          src="/../public/perfil4.jpg"
           alt="Home Icon"
-          width={12}
-          height={12}
+          width={24}
+          height={24}
           />
           <Link href='/'>Melhor bibliografia CA…</Link>
         </li>
         <li>
           <Image 
-          src="/../public/perfil3.jpg"
+          src="/../public/perfil5.jpg"
           alt="Home Icon"
-          width={12}
-          height={12}
+          width={24}
+          height={24}
           />
           <Link href='/'>Resumos Miltons Sant...</Link>
         </li>
-        </ul>
+        <li>
+          <Image 
+          src="/../public/perfil3.jpg"
+          alt="Home Icon"
+          width={24}
+          height={24}
+          />
+          <Link href='/'>Microeconomia I</Link>
+        </li>
+      </ul>
     </div>
   )
 }

@@ -5,12 +5,22 @@
   margin-left: 18vw;
   grid-auto-rows: minmax(10vh, auto);
   box-shadow: inset 0px -1px 0px 0px rgb(232, 232, 232);
+  @media screen and (max-width: 1200px){
+    width: 95vw;
+    margin: 5vh 0;
+  }
 }
 .subcard_img{
   margin: auto;
+  @media screen and (max-width: 1200px){
+    margin: 0px;
+  }
 }
 .subcard_text{
   margin-left: -2vw;
+  @media screen and (max-width: 1200px){
+    margin: 0 auto;
+  }
 }
 .subcard_counter{
   margin: 2vh;
@@ -45,6 +55,9 @@
   grid-gap: 5px;
   grid-auto-rows: auto;
   margin: 3vh 0;
+  @media screen and (max-width: 1200px){
+    margin: 2vh auto;
+  }
 
 }
 

@@ -1,4 +1,5 @@
 const Counter = () => {
+
   let clicks = 0
   function handleClick() {
     clicks += 1
