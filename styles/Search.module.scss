@@ -27,6 +27,6 @@
   top: 1.8vh;
   left: 1vw;
   @media screen and (max-width: 720px){
-    display: none;
+    visibility: hidden;
   }
 }
