@@ -35,15 +35,6 @@ button{
   font-style: bold;
 }
 
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .logo{
   color: #55c9ff;
   font-size: 2em;
@@ -54,13 +45,4 @@ button{
     margin-top: 3vh;
   }
 
-}
-
-.sidebar{
-  width: 15vw;
-  position: fixed;
-  z-index: 10;
-  @media screen and (max-width: 1200px){
-    display: none;
-  }
 }

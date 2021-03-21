@@ -1,0 +1,26 @@
+
+.sidebar{
+  width: 250px;
+  height: 100vh;
+
+  position: fixed;
+  z-index: 10;
+  background-color: #fff;
+  @media screen and (max-width: 1200px){
+    top: 2vh;
+    width: 320px;
+    display: none;
+  }
+}
+.mobile_header{
+  display: none;
+  border-bottom: 1px solid #efefef;
+  margin: 0;
+  height: 11vh;
+  @media screen and (max-width: 1200px){
+    display: flex;
+    h1{
+      margin: 27px 0 10px 10px;
+    }
+  }
+}
