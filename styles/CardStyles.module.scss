@@ -4,6 +4,7 @@
   min-height: 30vh;
   width: 60vw;
   margin: 16vh auto 2vh auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
   @media screen and (max-width: 1200px){
     width: 95vw;
   }
@@ -22,6 +23,7 @@
 }
 .card_text{
   padding: 0  10px;
+
 }
 .card_text p{
   font-style: normal;

@@ -1,0 +1,8 @@
+.menu {
+  display: none;
+  @media screen and (max-width: 1200px){
+    display: block;
+    margin-top: 3vh;
+    margin-left: 5vw;
+  }
+}

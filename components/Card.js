@@ -13,7 +13,7 @@ const Card = () => {
         </div>
         <div class={CardStyles.card_text}>
           <h2 class='title'>Rafael Costa</h2>
-          <h3 class='subtitle'>Estudante UFMG</h3>
+          <h3 class='subtitle'>Estudante em UFMG</h3>
           <p>Survived PhD in Computational Electromagnetics, while working as a researcher,
           applied 20 years ago what will be called now Machine Learning to solve ill-posed
           inverse problems in NDT, worked for long time in Software Development, even for a while as
