@@ -8,7 +8,7 @@ const Editbtn = () => {
       <div class={BtnStyle.btn_img}>
         <Image
           src='/../public/pencil.svg'
-          alt='Icone lápis'
+          alt='Ícone lápis'
           width={15}
           height={15}
         />

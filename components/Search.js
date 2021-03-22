@@ -8,7 +8,7 @@ const Search = () => {
       <div class={SearchStyles.lupa}>
         <Image
           src='/../public/search.svg'
-          alt='Icone pesquisa'
+          alt='Ícone de pesquisa'
           width={10}
           height={10}
         />

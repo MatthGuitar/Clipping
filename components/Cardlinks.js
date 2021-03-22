@@ -8,16 +8,16 @@ const Cardlinks = () => {
 
   return (
       <ul class={CardStyles.card_links}>
-        <li id='cardlink'>
+        <li class={CardStyles.card_links}>
           <Link href='/'>Perfil</Link>
         </li>
-        <li id='cardlink'>
+        <li >
           <Link href='/'>Conta</Link>
         </li>
-        <li id='cardlink'>
+        <li>
           <Link href='/'>Meus Kdernos</Link>
         </li>
-        <li id='cardlink'>
+        <li >
           <Link href='/'>Favoritos</Link>
         </li>
       </ul>

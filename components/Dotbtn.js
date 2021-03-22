@@ -4,7 +4,7 @@ const Dotbtn = () => {
   return (
     <Image
     src="/../public/three-dots-vertical.svg"
-    alt='Foto de perfil'
+    alt='Botão de alterar idioma'
     width={30}
     height={30}
   />

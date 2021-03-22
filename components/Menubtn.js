@@ -1,12 +1,13 @@
+import React, { useState } from 'react'
 import Image from 'next/image'
 import MenuStyle from '../styles/Menu.module.scss'
 
 const Menubtn = () => {
-  function slideMenu(event) {
-    console.log(event.target)
-  }
+  const [sidebar, setSidebar] = useState(false)
+
+  const showBar = () => setSidebar(!sidebar)
   return (
-    <div class={MenuStyle.menu} id='mobile_menu' onClick={slideMenu}>
+    <div class='menu'onClick={showBar}>
         <Image 
         src='/../public/list.svg'
         alt='menu hamburger'

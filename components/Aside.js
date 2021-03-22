@@ -1,15 +1,21 @@
+import React, { useState } from 'react'
+import Image from 'next/image'
 import Nav from './Nav'
 import Visits from './Visits'
 import Logo from './Logo'
 import Menubtn from './Menubtn'
-import AsideStyles from '../styles/Sidebar.module.scss'
+import SidebarStyle from '../styles/Sidebar.module.scss'
+
 
 
 const Aside = () => {
+  const [sidebar, setSidebar] = useState(false)
+
+  const showBar = () => setSidebar(!sidebar)
   return (
-    <aside class={AsideStyles.sidebar}>
-      <div class={AsideStyles.mobile_header}>
-        <Menubtn />
+    <aside className={sidebar ? 'sidebar' : 'sidebar_active'}>
+      <div class={SidebarStyle.mobile_header}>
+        <Menubtn onClick={showBar}/>
         <Logo />
       </div>
       <Nav />
@@ -17,4 +23,4 @@ const Aside = () => {
     </aside>
   )
 }
- export default Aside
+export default Aside

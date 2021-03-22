@@ -12,7 +12,7 @@ const Subcard = () => {
       </div>
       <div class={SubcardStyle.subcard_text}>
         <h2 class='subtitle'>Rafael Costa</h2>
-        <p>Kderno de perfil de <a href='/' class={SubcardStyle.subcard_name}>Rafael Costa</a>
+        <p>Kderno de perfil de <span class={SubcardStyle.subcard_name}>Rafael Costa</span>
         · 49 visualizações · 2d atrás
         </p>
       </div>

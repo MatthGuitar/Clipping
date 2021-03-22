@@ -10,7 +10,7 @@ const Visits = () => {
         <li>
           <Image 
           src="/../public/perfil.jpg"
-          alt="Home Icon"
+          alt="Perfil da visita"
           width={24}
           height={24}
           />
@@ -19,7 +19,7 @@ const Visits = () => {
         <li>
           <Image 
           src="/../public/perfil2.jpg"
-          alt="Home Icon"
+          alt="Perfil da visita"
           width={24}
           height={24}
           />
@@ -28,7 +28,7 @@ const Visits = () => {
         <li>
           <Image 
           src="/../public/perfil4.jpg"
-          alt="Home Icon"
+          alt="Perfil da visita"
           width={24}
           height={24}
           />
@@ -37,7 +37,7 @@ const Visits = () => {
         <li>
           <Image 
           src="/../public/perfil5.jpg"
-          alt="Home Icon"
+          alt="Perfil da visita"
           width={24}
           height={24}
           />
@@ -46,7 +46,7 @@ const Visits = () => {
         <li>
           <Image 
           src="/../public/perfil3.jpg"
-          alt="Home Icon"
+          alt="Perfil da visita"
           width={24}
           height={24}
           />
