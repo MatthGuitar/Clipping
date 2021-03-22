@@ -15,7 +15,14 @@ const Aside = () => {
   return (
     <aside className={sidebar ? 'sidebar' : 'sidebar_active'}>
       <div class={SidebarStyle.mobile_header}>
-        <Menubtn onClick={showBar}/>
+        <div class='menu' onClick={showBar}>
+          <Image
+            src='/../public/list.svg'
+            alt='menu hamburger'
+            width={50}
+            height={50}
+          />
+        </div>
         <Logo />
       </div>
       <Nav />
