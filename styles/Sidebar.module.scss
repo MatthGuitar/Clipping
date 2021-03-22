@@ -1,12 +1,13 @@
 
 .mobile_header{
-  display: none;
-  border-bottom: 1px solid #efefef;
-  margin: 0;
-  height: 11vh;
+  position: fixed;
+  top: 1vh;
+  visibility: hidden;
+  width: 10vw;
+  z-index: 3;
   @media screen and (max-width: 1200px){
 
-    display: flex;
+    visibility: visible;
     h1{
       margin: 27px 0 10px 10px;
     }
