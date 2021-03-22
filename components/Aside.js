@@ -9,7 +9,7 @@ import SidebarStyle from '../styles/Sidebar.module.scss'
 
 
 const Aside = () => {
-  const [sidebar, setSidebar] = useState(false)
+  const [sidebar, setSidebar] = useState(true)
 
   const showBar = () => setSidebar(!sidebar)
   return (

@@ -21,9 +21,11 @@ const Maintext = () => {
            bem sintético, será especial para isso.
           Você encontrará neste resumo, uma síntese dos 3 capítulos da obra que são relevantes para o CACD:
         </p>
-        <p>1. A herança da colônia;</p>
-        <p>2. A diplomacia Imperial;</p>
-        <p>3. A obra republicana do Barão do Rio Branco.</p>
+        <div className={TextStyle.text_list}>
+          <p>1. A herança da colônia;</p>
+          <p>2. A diplomacia Imperial;</p>
+          <p>3. A obra republicana do Barão do Rio Branco.</p>
+        </div>
         <p>
           Ao final da leitura desse resumo, você estará 100% com os assuntos cobrados no CACD a respeito dos tratados que formaram as fronteiras do Brasil.
           Este tópico deve ser estudado após você ter estudado o tópico Período colonial do Edital.
