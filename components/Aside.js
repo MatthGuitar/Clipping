@@ -2,7 +2,11 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import Nav from './Nav'
 import Visits from './Visits'
+<<<<<<< HEAD
 import Logo from './Logo'
+=======
+
+>>>>>>> 4567f5a1ddcd220896955110f6a8bca617ad0933
 import SidebarStyle from '../styles/Sidebar.module.scss'
 
 
@@ -12,21 +16,22 @@ const Aside = () => {
 
   const showBar = () => setSidebar(!sidebar)
   return (
-    <aside className={sidebar ? 'sidebar' : 'sidebar_active'}>
+    <>
       <div class={SidebarStyle.mobile_header}>
         <div class='menu' onClick={showBar}>
           <Image
             src='/../public/list.svg'
             alt='menu hamburger'
-            width={50}
-            height={50}
+            width={40}
+            height={40}
           />
         </div>
-        <Logo />
       </div>
-      <Nav />
-      <Visits />
-    </aside>
+      <aside className={sidebar ? 'sidebar' : 'sidebar_active'}>
+        <Nav />
+        <Visits />
+      </aside>
+    </>
   )
 }
 export default Aside
