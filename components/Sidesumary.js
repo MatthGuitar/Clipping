@@ -5,7 +5,7 @@ const Sidesumary = () => {
     <div className={SideStyles.side}>
       <div className={SideStyles.sumary_list}>
         <ul>
-          <h2 class='subtitle'>Sumário</h2>
+          <h2 className='subtitle'>Sumário</h2>
           <li>
             <a href='#'>
               Introdução
