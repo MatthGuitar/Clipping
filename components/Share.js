@@ -9,7 +9,7 @@ const Share = () => {
       </button>
       <div className={ShareStyle.share_img}>
         <Image
-          src='/../public/people.svg'
+          src='/people.svg'
           alt='Ícone pessoas'
           width={20}
           height={20}

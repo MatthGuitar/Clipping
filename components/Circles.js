@@ -6,7 +6,7 @@ function Circles() {
     <ul className={CircleStyles.circle}>
       <li>
         <Image
-          src="/../public/circle.svg"
+          src="/circle.svg"
           alt="Circle"
           width={25}
           height={25}
@@ -14,7 +14,7 @@ function Circles() {
       </li>
       <li>
         <Image
-          src="/../public/circle.svg"
+          src="/circle.svg"
           alt="Circle"
           width={25}
           height={25}
@@ -22,7 +22,7 @@ function Circles() {
       </li>
       <li>
         <Image
-          src="/../public/circle.svg"
+          src="/circle.svg"
           alt="Circle"
           width={25}
           height={25}

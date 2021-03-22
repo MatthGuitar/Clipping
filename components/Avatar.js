@@ -4,7 +4,7 @@ import AvatarStyle from '../styles/Avatar.module.scss'
 const Avatar = () => {
   return (
       <Image
-        src="/../public/perfil3.jpg"
+        src="/perfil3.jpg"
         alt='Foto de perfil'
         width={35}
         height={35}

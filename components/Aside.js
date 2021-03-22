@@ -15,7 +15,7 @@ const Aside = () => {
       <div className={SidebarStyle.mobile_header}>
         <div className='menu' onClick={showBar}>
           <Image
-            src='/../public/list.svg'
+            src='/list.svg'
             alt='menu hamburger'
             width={40}
             height={40}

@@ -7,7 +7,7 @@ const Search = () => {
       <input type='text' placeholder='Pesquisar' class={SearchStyles.pesquisa} />
       <div class={SearchStyles.lupa}>
         <Image
-          src='/../public/search.svg'
+          src='/search.svg'
           alt='Ícone de pesquisa'
           width={10}
           height={10}

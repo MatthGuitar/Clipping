@@ -9,7 +9,7 @@ const Visits = () => {
       <ul class={VisitsStyle.view_list}>
         <li>
           <Image 
-          src="/../public/perfil.jpg"
+          src="/perfil.jpg"
           alt="Perfil da visita"
           width={24}
           height={24}
@@ -18,7 +18,7 @@ const Visits = () => {
         </li>
         <li>
           <Image 
-          src="/../public/perfil2.jpg"
+          src="/perfil2.jpg"
           alt="Perfil da visita"
           width={24}
           height={24}
@@ -27,7 +27,7 @@ const Visits = () => {
         </li>
         <li>
           <Image 
-          src="/../public/perfil4.jpg"
+          src="/perfil4.jpg"
           alt="Perfil da visita"
           width={24}
           height={24}
@@ -36,7 +36,7 @@ const Visits = () => {
         </li>
         <li>
           <Image 
-          src="/../public/perfil5.jpg"
+          src="/perfil5.jpg"
           alt="Perfil da visita"
           width={24}
           height={24}
@@ -45,7 +45,7 @@ const Visits = () => {
         </li>
         <li>
           <Image 
-          src="/../public/perfil3.jpg"
+          src="/perfil3.jpg"
           alt="Perfil da visita"
           width={24}
           height={24}

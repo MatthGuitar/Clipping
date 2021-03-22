@@ -9,7 +9,7 @@ export const Nav = () => {
       <ul class={NavStyles.nav_list}>
         <li>
           <Image 
-          src="/../public/home.svg"
+          src="/home.svg"
           alt="Ícone home"
           width={15}
           height={15}
@@ -18,7 +18,7 @@ export const Nav = () => {
         </li>
         <li>
           <Image 
-          src="/../public/journal.svg"
+          src="/journal.svg"
           alt="Ícone de Kderno"
           width={15}
           height={15}
@@ -27,7 +27,7 @@ export const Nav = () => {
         </li>
         <li>
           <Image 
-          src="/../public/star.svg"
+          src="/star.svg"
           alt="Ícone de Favoritos"
           width={15}
           height={15}

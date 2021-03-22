@@ -7,7 +7,7 @@ const Editbtn = () => {
       <button className={BtnStyle.btn}>Editar</button>
       <div className={BtnStyle.btn_img}>
         <Image
-          src='/../public/pencil.svg'
+          src='/pencil.svg'
           alt='Ícone lápis'
           width={15}
           height={15}
