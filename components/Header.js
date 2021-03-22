@@ -7,10 +7,10 @@ import HeaderStyles from '../styles/Header.module.scss'
 
 const Header = () => {
   return (
-    <header class={HeaderStyles.header}>
+    <header className={HeaderStyles.header}>
       <Logo />
       <Search />
-      <div class={HeaderStyles.top_menu}>
+      <div className={HeaderStyles.top_menu}>
         <Avatar />
         <Dotbtn />
       </div>

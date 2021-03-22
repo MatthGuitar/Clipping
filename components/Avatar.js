@@ -8,7 +8,7 @@ const Avatar = () => {
         alt='Foto de perfil'
         width={35}
         height={35}
-        class={AvatarStyle.avatar}
+        className={AvatarStyle.avatar}
       />
   )
 }

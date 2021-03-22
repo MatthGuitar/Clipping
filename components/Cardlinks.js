@@ -7,8 +7,8 @@ const Cardlinks = () => {
 
 
   return (
-      <ul class={CardStyles.card_links}>
-        <li class={CardStyles.card_links}>
+      <ul className={CardStyles.card_links}>
+        <li className={CardStyles.card_links}>
           <Link href='/'>Perfil</Link>
         </li>
         <li >

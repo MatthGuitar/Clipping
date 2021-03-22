@@ -3,9 +3,9 @@ import BtnStyle from '../styles/Btn.module.scss'
 
 const Editbtn = () => {
   return (
-    <div class={BtnStyle.edit_wrapper}>
-      <button class={BtnStyle.btn}>Editar</button>
-      <div class={BtnStyle.btn_img}>
+    <div className={BtnStyle.edit_wrapper}>
+      <button className={BtnStyle.btn}>Editar</button>
+      <div className={BtnStyle.btn_img}>
         <Image
           src='/../public/pencil.svg'
           alt='Ícone lápis'

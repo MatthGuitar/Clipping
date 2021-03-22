@@ -3,7 +3,7 @@ import CircleStyles from '../styles/Circle.module.scss'
 
 function Circles() {
   return (
-    <ul class={CircleStyles.circle}>
+    <ul className={CircleStyles.circle}>
       <li>
         <Image
           src="/../public/circle.svg"

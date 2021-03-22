@@ -23,7 +23,7 @@ export const Nav = () => {
           width={15}
           height={15}
           />
-          <Link href='/'>Kdernos</Link>
+          <Link href=''>Kdernos</Link>
         </li>
         <li>
           <Image 
@@ -32,7 +32,7 @@ export const Nav = () => {
           width={15}
           height={15}
           />
-          <Link href='/'>Favoritos</Link>
+          <Link href=''>Favoritos</Link>
         </li>
       </ul>
     </nav>
