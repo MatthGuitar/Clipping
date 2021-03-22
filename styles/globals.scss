@@ -31,14 +31,17 @@ button{
 }
 .subtitle{
   font-size: 1em;
+  line-height: 1.5em;
   color: rgb(44, 44, 44);
-  font-style: bold;
+  font-family: Roboto, sans-serif;
+  
 }
 
 .logo{
   color: #55c9ff;
   font-size: 2em;
   text-transform: lowercase;
+  font-family: Roboto, sans-serif;
   margin: 2vh 2vw;
   @media screen and (max-width: 1200px){
     margin-top: 3vh;
