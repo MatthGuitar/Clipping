@@ -2,11 +2,6 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import Nav from './Nav'
 import Visits from './Visits'
-<<<<<<< HEAD
-import Logo from './Logo'
-=======
-
->>>>>>> 4567f5a1ddcd220896955110f6a8bca617ad0933
 import SidebarStyle from '../styles/Sidebar.module.scss'
 
 
