@@ -1,18 +1,29 @@
 .view_list{ 
-  padding-left: 10px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   :hover{
     color: #4d92ed;
   }
 }
 .view_list li{
-  font-size: 0.9em;
-  padding: 10px 0 10px 0px;
+  display: flex;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 5px 0 10px 0px;
+  a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  div{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 2000px;
+  }
+}
 
-}
-.view_list div{
-  border-radius: 50%;
-  
-}
 .view_title{
   font-size: 1em;
   margin: 30px 15px;

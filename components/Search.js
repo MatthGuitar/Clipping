@@ -9,8 +9,8 @@ const Search = () => {
         <Image
           src='/search.svg'
           alt='Ícone de pesquisa'
-          width={10}
-          height={10}
+          width={15}
+          height={15}
         />
       </div>
     </div>

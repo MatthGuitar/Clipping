@@ -11,8 +11,8 @@ const Visits = () => {
           <Image 
           src="/perfil.jpg"
           alt="Perfil da visita"
-          width={24}
-          height={24}
+          width={25}
+          height={25}
           />
           <Link href='/'>Tratado de fronteira</Link>
         </li>
@@ -23,7 +23,7 @@ const Visits = () => {
           width={24}
           height={24}
           />
-          <Link href='/'>Exercise: Syntax, Variat… I</Link>
+          <Link href='/'>Exercise: Syntax, Variat…</Link>
         </li>
         <li>
           <Image 
