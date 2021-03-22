@@ -8,7 +8,7 @@ const Profile = () => {
       alt = 'Foto de perfil'
       width={120}
       height={120}
-      class={ProfileStyle.perfil}
+      className={ProfileStyle.perfil}
       />
   )
 }

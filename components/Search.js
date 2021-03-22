@@ -3,8 +3,8 @@ import SearchStyles from '../styles/Search.module.scss'
 
 const Search = () => {
   return (
-    <div class={SearchStyles.searchbar}>
-      <input type='text' placeholder='Pesquisar' class={SearchStyles.pesquisa} />
+    <div className={SearchStyles.searchbar}>
+      <input type='text' placeholder='Pesquisar' className={SearchStyles.pesquisa} />
       <div class={SearchStyles.lupa}>
         <Image
           src='/search.svg'

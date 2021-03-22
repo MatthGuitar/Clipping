@@ -4,9 +4,9 @@ import VisitsStyle from '../styles/Visits.module.scss'
 
 const Visits = () => {
   return (
-    <div class={VisitsStyle.view_wrapper}>
-      <h2 class={VisitsStyle.view_title}>Vistos recetemente</h2>
-      <ul class={VisitsStyle.view_list}>
+    <div className={VisitsStyle.view_wrapper}>
+      <h2 className={VisitsStyle.view_title}>Vistos recetemente</h2>
+      <ul className={VisitsStyle.view_list}>
         <li>
           <Image 
           src="/perfil.jpg"

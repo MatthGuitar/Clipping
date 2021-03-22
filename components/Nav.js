@@ -6,7 +6,7 @@ import NavStyles from '../styles/Nav.module.scss'
 export const Nav = () => {
   return (
     <nav>
-      <ul class={NavStyles.nav_list}>
+      <ul className={NavStyles.nav_list}>
         <li>
           <Image 
           src="/home.svg"

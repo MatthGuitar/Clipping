@@ -4,11 +4,11 @@ import TextStyle from '../styles/Maintext.module.scss'
 
 const Maintext = () => {
   return (
-    <section class={TextStyle.main_container}>
+    <section className={TextStyle.main_container}>
       <Sumary />
       <Sidesumary />
-      <div class={TextStyle.text}>
-        <h1 class='title'>Introdução</h1>
+      <div className={TextStyle.text}>
+        <h1 className='title'>Introdução</h1>
         <p>
           <p>Este é um resumo sobre as Fronteiras do Brasil.</p>
           <p>

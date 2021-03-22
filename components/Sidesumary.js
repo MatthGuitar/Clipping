@@ -2,8 +2,8 @@ import SideStyles from '../styles/Sidesumary.module.scss'
 
 const Sidesumary = () => {
   return (
-    <div class={SideStyles.side}>
-      <div class={SideStyles.sumary_list}>
+    <div className={SideStyles.side}>
+      <div className={SideStyles.sumary_list}>
         <ul>
           <h2 class='subtitle'>Sumário</h2>
           <li>
