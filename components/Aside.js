@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Nav from './Nav'
 import Visits from './Visits'
 import Logo from './Logo'
-import Menubtn from './Menubtn'
 import SidebarStyle from '../styles/Sidebar.module.scss'
 
 
